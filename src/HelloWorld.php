@@ -8,4 +8,9 @@ class HelloWorld
     {
         return "Hello, Composer!";
     }
+
+    public function test()
+    {
+        return "test";
+    }
 }
