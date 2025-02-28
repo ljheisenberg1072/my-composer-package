@@ -1,6 +1,8 @@
 {
     "name": "ljheisenberg/my-composer-package",
     "type": "library",
+    "description": "a package for test publish process",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Ljheisenberg\\MyComposerPackage\\": "src/",
