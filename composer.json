@@ -1,0 +1,21 @@
+{
+    "name": "ljheisenberg/my-composer-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ljheisenberg\\MyComposerPackage\\": "src/",
+            "Ljheisenberg\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ljheisenberg"
+        }
+    ],
+    "scripts": {
+        "test": "vendor/bin/phpunit tests"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
